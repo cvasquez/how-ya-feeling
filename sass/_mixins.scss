@@ -1,0 +1,16 @@
+// Face Button
+@mixin face-button($bgColor, $btnHeight: 2px){
+    background: $bgColor;
+    @include box-shadow(darken($bgColor, 10%) 0px $btnHeight 0px);
+    position: relative;
+    top: 0;
+    @include transition-duration(.05s);
+    &:hover {
+        background: lighten($bgColor, 4%);
+    }
+    &:active {
+        background: darken($bgColor, 2%);
+        top: $btnHeight;
+        @include box-shadow(darken($bgColor, 10%) 0px 0px 0px, inset rgba(#000000, .2) 0px 1px 2px, inset rgba(white, .2) 0px -1px 0px);
+    }
+}

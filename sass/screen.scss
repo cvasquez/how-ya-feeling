@@ -1,0 +1,99 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+//@import "compass/reset";
+@import "compass/css3";
+@import "variables";
+@import "helpers";
+@import "mixins";
+
+.hidden {
+    display: none;
+}
+
+.hyf-emoticons {
+    font-size: $base-font-size;
+    &.hyf-live {
+        overflow: auto;
+        background: white;
+        text-align: center;
+        max-width: 400px;
+        @include box-shadow(rgba(black, .4) 0px 1px 2px);
+        margin-bottom: 1em;
+        h3 {
+            font-size: $base-font-size * 1.5;
+            line-height: 1em;
+            margin: 0;
+            padding: 0;
+            display: block;
+        }
+    }
+    .hyf-poll, .hyf-results {
+        width: 100%;
+    }
+    .hyf-emoticon {
+        display: inline-block;
+        text-align: center;
+        color: white;
+        line-height: 1em;
+        @include text-shadow(rgba(black, .25) 0px 2px 2px);
+        a, a:hover, a:active, a:visited {
+            color: white;
+        }
+    }
+    .hyf-results {
+        @include border-radius(2em);
+        overflow: hidden;
+        background: $gray;
+        .hyf-emoticon {
+            @include box-shadow(inset rgba(#000000, .2) 0px 2px 4px);
+            &.unhappy {
+                background: $red;
+            }
+            &.sleep {
+                background: $gray;
+            }
+            &.happy {
+                background: $green;
+            }
+            i {
+                display: inline-block;
+            }
+        }
+        .percentage {
+            @extend .ptms;
+            font-size: .9em;
+            display: block;
+        }
+    }
+    .hyf-poll {
+        text-align: center;
+        .hyf-emoticon {
+            width: 32%;
+            a {
+                i {
+                    display: inline-block;
+                    padding: 10px 9px;
+                    @include border-radius(40px);
+                    &.icon-emo-unhappy {
+                        @include face-button($red);
+                    }
+                    &.icon-emo-sleep {
+                        @include face-button($gray);
+                    }
+                    &.icon-emo-happy {
+                        @include face-button($green);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hyf-preview {
+    @include border-radius(.5em);
+    border: 1px solid #CCCCCC;
+    display: inline-block;
+}

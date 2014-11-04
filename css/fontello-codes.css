@@ -1,0 +1,8 @@
+
+.icon-emo-happy:before { content: '\e800'; } /* '' */
+.icon-emo-unhappy:before { content: '\e801'; } /* '' */
+.icon-emo-sleep:before { content: '\e802'; } /* '' */
+.icon-emo-tongue:before { content: '\e803'; } /* '' */
+.icon-emo-laugh:before { content: '\e804'; } /* '' */
+.icon-emo-angry:before { content: '\e805'; } /* '' */
+.icon-emo-surprised:before { content: '\e806'; } /* '' */

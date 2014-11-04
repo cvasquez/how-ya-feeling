@@ -1,0 +1,128 @@
+/** Helpers **/
+    // Padding
+        // Small
+            .pas { padding: $base-font-size*.25; }
+            .pvs { padding-top: $base-font-size*.25; padding-bottom: $base-font-size*.25; }
+            .phs { padding-left: $base-font-size*.25; padding-right: $base-font-size*.25; }
+            .pts { padding-top: $base-font-size*.25; }
+            .pbs { padding-bottom: $base-font-size*.25; }
+            .pls { padding-left: $base-font-size*.25; }
+            .prs { padding-right: $base-font-size*.25; }
+
+        // Medium Small
+            .pams { padding: $base-font-size*.5; }
+            .pvms { padding-top: $base-font-size*.5; padding-bottom: $base-font-size*.5; }
+            .phms { padding-left: $base-font-size*.5; padding-right: $base-font-size*.5; }
+            .ptms { padding-top: $base-font-size*.5; }
+            .pbms { padding-bottom: $base-font-size*.5; }
+            .plms { padding-left: $base-font-size*.5; }
+            .prms { padding-right: $base-font-size*.5; }
+
+        // Medium
+            .pam { padding: $base-font-size*.75; }
+            .pvm { padding-top: $base-font-size*.75; padding-bottom: $base-font-size*.75; }
+            .phm { padding-left: $base-font-size*.75; padding-right: $base-font-size*.75; }
+            .ptm { padding-top: $base-font-size*.75; }
+            .pbm { padding-bottom: $base-font-size*.75; }
+            .plm { padding-left: $base-font-size*.75; }
+            .prm { padding-right: $base-font-size*.75; }
+
+        // Medium Large
+            .paml { padding: $base-font-size*1; }
+            .pvml { padding-top: $base-font-size*1; padding-bottom: $base-font-size*1; }
+            .phml { padding-left: $base-font-size*1; padding-right: $base-font-size*1; }
+            .ptml { padding-top: $base-font-size*1; }
+            .pbml { padding-bottom: $base-font-size*1; }
+            .plml { padding-left: $base-font-size*1; }
+            .prml { padding-right: $base-font-size*1; }
+
+        // Large
+            .pal { padding: $base-font-size*1.5; }
+            .pvl { padding-top: $base-font-size*1.5; padding-bottom: $base-font-size*1.5; }
+            .phl { padding-left: $base-font-size*1.5; padding-right: $base-font-size*1.5; }
+            .ptl { padding-top: $base-font-size*1.5; }
+            .pbl { padding-bottom: $base-font-size*1.5; }
+            .pll { padding-left: $base-font-size*1.5; }
+            .prl { padding-right: $base-font-size*1.5; }
+
+        // XL
+            .paxl { padding: $base-font-size*2; }
+            .pvxl { padding-top: $base-font-size*2; padding-bottom: $base-font-size*2; }
+            .phxl { padding-left: $base-font-size*2; padding-right: $base-font-size*2; }
+            .ptxl { padding-top: $base-font-size*2; }
+            .pbxl { padding-bottom: $base-font-size*2; }
+            .plxl { padding-left: $base-font-size*2; }
+            .prxl { padding-right: $base-font-size*2; }
+
+        // XXL
+            .paxxl { padding: $base-font-size*3; }
+            .pvxxl { padding-top: $base-font-size*3; padding-bottom: $base-font-size*3; }
+            .phxxl { padding-left: $base-font-size*3; padding-right: $base-font-size*3; }
+            .ptxxl { padding-top: $base-font-size*3; }
+            .pbxxl { padding-bottom: $base-font-size*3; }
+            .plxxl { padding-left: $base-font-size*3; }
+            .prxxl { padding-right: $base-font-size*3; }
+
+    // Margin
+        // Small
+            .mas { margin: $base-font-size*.25; }
+            .mvs { margin-top: $base-font-size*.25; margin-bottom: $base-font-size*.25; }
+            .mhs { margin-left: $base-font-size*.25; margin-right: $base-font-size*.25; }
+            .mts { margin-top: $base-font-size*.25; }
+            .mbs { margin-bottom: $base-font-size*.25; }
+            .mls { margin-left: $base-font-size*.25; }
+            .prs { margin-right: $base-font-size*.25; }
+
+        // Medium Small
+            .mams { margin: $base-font-size*.5; }
+            .mvms { margin-top: $base-font-size*.5; margin-bottom: $base-font-size*.5; }
+            .mhms { margin-left: $base-font-size*.5; margin-right: $base-font-size*.5; }
+            .mtms { margin-top: $base-font-size*.5; }
+            .mbms { margin-bottom: $base-font-size*.5; }
+            .mlms { margin-left: $base-font-size*.5; }
+            .prms { margin-right: $base-font-size*.5; }
+
+        // Medium
+            .mam { margin: $base-font-size*.75; }
+            .mvm { margin-top: $base-font-size*.75; margin-bottom: $base-font-size*.75; }
+            .mhm { margin-left: $base-font-size*.75; margin-right: $base-font-size*.75; }
+            .mtm { margin-top: $base-font-size*.75; }
+            .mbm { margin-bottom: $base-font-size*.75; }
+            .mlm { margin-left: $base-font-size*.75; }
+            .prm { margin-right: $base-font-size*.75; }
+
+        // Medium Large
+            .maml { margin: $base-font-size*1; }
+            .mvml { margin-top: $base-font-size*1; margin-bottom: $base-font-size*1; }
+            .mhml { margin-left: $base-font-size*1; margin-right: $base-font-size*1; }
+            .mtml { margin-top: $base-font-size*1; }
+            .mbml { margin-bottom: $base-font-size*1; }
+            .mlml { margin-left: $base-font-size*1; }
+            .prml { margin-right: $base-font-size*1; }
+
+        // Large
+            .mal { margin: $base-font-size*1.5; }
+            .mvl { margin-top: $base-font-size*1.5; margin-bottom: $base-font-size*1.5; }
+            .mhl { margin-left: $base-font-size*1.5; margin-right: $base-font-size*1.5; }
+            .mtl { margin-top: $base-font-size*1.5; }
+            .mbl { margin-bottom: $base-font-size*1.5; }
+            .mll { margin-left: $base-font-size*1.5; }
+            .prl { margin-right: $base-font-size*1.5; }
+
+        // XL
+            .maxl { margin: $base-font-size*2; }
+            .mvxl { margin-top: $base-font-size*2; margin-bottom: $base-font-size*2; }
+            .mhxl { margin-left: $base-font-size*2; margin-right: $base-font-size*2; }
+            .mtxl { margin-top: $base-font-size*2; }
+            .mbxl { margin-bottom: $base-font-size*2; }
+            .mlxl { margin-left: $base-font-size*2; }
+            .prxl { margin-right: $base-font-size*2; }
+
+        // XXL
+            .maxxl { margin: $base-font-size*3; }
+            .mvxxl { margin-top: $base-font-size*3; margin-bottom: $base-font-size*3; }
+            .mhxxl { margin-left: $base-font-size*3; margin-right: $base-font-size*3; }
+            .mtxxl { margin-top: $base-font-size*3; }
+            .mbxxl { margin-bottom: $base-font-size*3; }
+            .mlxxl { margin-left: $base-font-size*3; }
+            .prxxl { margin-right: $base-font-size*3; }

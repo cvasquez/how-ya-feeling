@@ -1,0 +1,711 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/** Variables **/
+/** Colors **/
+/** Sizing **/
+/** Helpers **/
+/* line 4, ../sass/_helpers.scss */
+.pas {
+  padding: 3px;
+}
+
+/* line 5, ../sass/_helpers.scss */
+.pvs {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+/* line 6, ../sass/_helpers.scss */
+.phs {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+/* line 7, ../sass/_helpers.scss */
+.pts {
+  padding-top: 3px;
+}
+
+/* line 8, ../sass/_helpers.scss */
+.pbs {
+  padding-bottom: 3px;
+}
+
+/* line 9, ../sass/_helpers.scss */
+.pls {
+  padding-left: 3px;
+}
+
+/* line 10, ../sass/_helpers.scss */
+.prs {
+  padding-right: 3px;
+}
+
+/* line 13, ../sass/_helpers.scss */
+.pams {
+  padding: 6px;
+}
+
+/* line 14, ../sass/_helpers.scss */
+.pvms {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+/* line 15, ../sass/_helpers.scss */
+.phms {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+/* line 16, ../sass/_helpers.scss */
+.ptms, .hyf-emoticons .hyf-results .percentage {
+  padding-top: 6px;
+}
+
+/* line 17, ../sass/_helpers.scss */
+.pbms {
+  padding-bottom: 6px;
+}
+
+/* line 18, ../sass/_helpers.scss */
+.plms {
+  padding-left: 6px;
+}
+
+/* line 19, ../sass/_helpers.scss */
+.prms {
+  padding-right: 6px;
+}
+
+/* line 22, ../sass/_helpers.scss */
+.pam {
+  padding: 9px;
+}
+
+/* line 23, ../sass/_helpers.scss */
+.pvm {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+/* line 24, ../sass/_helpers.scss */
+.phm {
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+/* line 25, ../sass/_helpers.scss */
+.ptm {
+  padding-top: 9px;
+}
+
+/* line 26, ../sass/_helpers.scss */
+.pbm {
+  padding-bottom: 9px;
+}
+
+/* line 27, ../sass/_helpers.scss */
+.plm {
+  padding-left: 9px;
+}
+
+/* line 28, ../sass/_helpers.scss */
+.prm {
+  padding-right: 9px;
+}
+
+/* line 31, ../sass/_helpers.scss */
+.paml {
+  padding: 12px;
+}
+
+/* line 32, ../sass/_helpers.scss */
+.pvml {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* line 33, ../sass/_helpers.scss */
+.phml {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* line 34, ../sass/_helpers.scss */
+.ptml {
+  padding-top: 12px;
+}
+
+/* line 35, ../sass/_helpers.scss */
+.pbml {
+  padding-bottom: 12px;
+}
+
+/* line 36, ../sass/_helpers.scss */
+.plml {
+  padding-left: 12px;
+}
+
+/* line 37, ../sass/_helpers.scss */
+.prml {
+  padding-right: 12px;
+}
+
+/* line 40, ../sass/_helpers.scss */
+.pal {
+  padding: 18px;
+}
+
+/* line 41, ../sass/_helpers.scss */
+.pvl {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+/* line 42, ../sass/_helpers.scss */
+.phl {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+/* line 43, ../sass/_helpers.scss */
+.ptl {
+  padding-top: 18px;
+}
+
+/* line 44, ../sass/_helpers.scss */
+.pbl {
+  padding-bottom: 18px;
+}
+
+/* line 45, ../sass/_helpers.scss */
+.pll {
+  padding-left: 18px;
+}
+
+/* line 46, ../sass/_helpers.scss */
+.prl {
+  padding-right: 18px;
+}
+
+/* line 49, ../sass/_helpers.scss */
+.paxl {
+  padding: 24px;
+}
+
+/* line 50, ../sass/_helpers.scss */
+.pvxl {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+/* line 51, ../sass/_helpers.scss */
+.phxl {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+/* line 52, ../sass/_helpers.scss */
+.ptxl {
+  padding-top: 24px;
+}
+
+/* line 53, ../sass/_helpers.scss */
+.pbxl {
+  padding-bottom: 24px;
+}
+
+/* line 54, ../sass/_helpers.scss */
+.plxl {
+  padding-left: 24px;
+}
+
+/* line 55, ../sass/_helpers.scss */
+.prxl {
+  padding-right: 24px;
+}
+
+/* line 58, ../sass/_helpers.scss */
+.paxxl {
+  padding: 36px;
+}
+
+/* line 59, ../sass/_helpers.scss */
+.pvxxl {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+/* line 60, ../sass/_helpers.scss */
+.phxxl {
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+/* line 61, ../sass/_helpers.scss */
+.ptxxl {
+  padding-top: 36px;
+}
+
+/* line 62, ../sass/_helpers.scss */
+.pbxxl {
+  padding-bottom: 36px;
+}
+
+/* line 63, ../sass/_helpers.scss */
+.plxxl {
+  padding-left: 36px;
+}
+
+/* line 64, ../sass/_helpers.scss */
+.prxxl {
+  padding-right: 36px;
+}
+
+/* line 68, ../sass/_helpers.scss */
+.mas {
+  margin: 3px;
+}
+
+/* line 69, ../sass/_helpers.scss */
+.mvs {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+/* line 70, ../sass/_helpers.scss */
+.mhs {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+/* line 71, ../sass/_helpers.scss */
+.mts {
+  margin-top: 3px;
+}
+
+/* line 72, ../sass/_helpers.scss */
+.mbs {
+  margin-bottom: 3px;
+}
+
+/* line 73, ../sass/_helpers.scss */
+.mls {
+  margin-left: 3px;
+}
+
+/* line 74, ../sass/_helpers.scss */
+.prs {
+  margin-right: 3px;
+}
+
+/* line 77, ../sass/_helpers.scss */
+.mams {
+  margin: 6px;
+}
+
+/* line 78, ../sass/_helpers.scss */
+.mvms {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+/* line 79, ../sass/_helpers.scss */
+.mhms {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+/* line 80, ../sass/_helpers.scss */
+.mtms {
+  margin-top: 6px;
+}
+
+/* line 81, ../sass/_helpers.scss */
+.mbms {
+  margin-bottom: 6px;
+}
+
+/* line 82, ../sass/_helpers.scss */
+.mlms {
+  margin-left: 6px;
+}
+
+/* line 83, ../sass/_helpers.scss */
+.prms {
+  margin-right: 6px;
+}
+
+/* line 86, ../sass/_helpers.scss */
+.mam {
+  margin: 9px;
+}
+
+/* line 87, ../sass/_helpers.scss */
+.mvm {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+/* line 88, ../sass/_helpers.scss */
+.mhm {
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+/* line 89, ../sass/_helpers.scss */
+.mtm {
+  margin-top: 9px;
+}
+
+/* line 90, ../sass/_helpers.scss */
+.mbm {
+  margin-bottom: 9px;
+}
+
+/* line 91, ../sass/_helpers.scss */
+.mlm {
+  margin-left: 9px;
+}
+
+/* line 92, ../sass/_helpers.scss */
+.prm {
+  margin-right: 9px;
+}
+
+/* line 95, ../sass/_helpers.scss */
+.maml {
+  margin: 12px;
+}
+
+/* line 96, ../sass/_helpers.scss */
+.mvml {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+/* line 97, ../sass/_helpers.scss */
+.mhml {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+/* line 98, ../sass/_helpers.scss */
+.mtml {
+  margin-top: 12px;
+}
+
+/* line 99, ../sass/_helpers.scss */
+.mbml {
+  margin-bottom: 12px;
+}
+
+/* line 100, ../sass/_helpers.scss */
+.mlml {
+  margin-left: 12px;
+}
+
+/* line 101, ../sass/_helpers.scss */
+.prml {
+  margin-right: 12px;
+}
+
+/* line 104, ../sass/_helpers.scss */
+.mal {
+  margin: 18px;
+}
+
+/* line 105, ../sass/_helpers.scss */
+.mvl {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+/* line 106, ../sass/_helpers.scss */
+.mhl {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+/* line 107, ../sass/_helpers.scss */
+.mtl {
+  margin-top: 18px;
+}
+
+/* line 108, ../sass/_helpers.scss */
+.mbl {
+  margin-bottom: 18px;
+}
+
+/* line 109, ../sass/_helpers.scss */
+.mll {
+  margin-left: 18px;
+}
+
+/* line 110, ../sass/_helpers.scss */
+.prl {
+  margin-right: 18px;
+}
+
+/* line 113, ../sass/_helpers.scss */
+.maxl {
+  margin: 24px;
+}
+
+/* line 114, ../sass/_helpers.scss */
+.mvxl {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+/* line 115, ../sass/_helpers.scss */
+.mhxl {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+/* line 116, ../sass/_helpers.scss */
+.mtxl {
+  margin-top: 24px;
+}
+
+/* line 117, ../sass/_helpers.scss */
+.mbxl {
+  margin-bottom: 24px;
+}
+
+/* line 118, ../sass/_helpers.scss */
+.mlxl {
+  margin-left: 24px;
+}
+
+/* line 119, ../sass/_helpers.scss */
+.prxl {
+  margin-right: 24px;
+}
+
+/* line 122, ../sass/_helpers.scss */
+.maxxl {
+  margin: 36px;
+}
+
+/* line 123, ../sass/_helpers.scss */
+.mvxxl {
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+/* line 124, ../sass/_helpers.scss */
+.mhxxl {
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
+/* line 125, ../sass/_helpers.scss */
+.mtxxl {
+  margin-top: 36px;
+}
+
+/* line 126, ../sass/_helpers.scss */
+.mbxxl {
+  margin-bottom: 36px;
+}
+
+/* line 127, ../sass/_helpers.scss */
+.mlxxl {
+  margin-left: 36px;
+}
+
+/* line 128, ../sass/_helpers.scss */
+.prxxl {
+  margin-right: 36px;
+}
+
+/* line 12, ../sass/screen.scss */
+.hidden {
+  display: none;
+}
+
+/* line 16, ../sass/screen.scss */
+.hyf-emoticons {
+  font-size: 12px;
+}
+/* line 18, ../sass/screen.scss */
+.hyf-emoticons.hyf-live {
+  overflow: auto;
+  background: white;
+  text-align: center;
+  max-width: 400px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+  margin-bottom: 1em;
+}
+/* line 25, ../sass/screen.scss */
+.hyf-emoticons.hyf-live h3 {
+  font-size: 18px;
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+/* line 33, ../sass/screen.scss */
+.hyf-emoticons .hyf-poll, .hyf-emoticons .hyf-results {
+  width: 100%;
+}
+/* line 36, ../sass/screen.scss */
+.hyf-emoticons .hyf-emoticon {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  line-height: 1em;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 2px 2px;
+}
+/* line 42, ../sass/screen.scss */
+.hyf-emoticons .hyf-emoticon a, .hyf-emoticons .hyf-emoticon a:hover, .hyf-emoticons .hyf-emoticon a:active, .hyf-emoticons .hyf-emoticon a:visited {
+  color: white;
+}
+/* line 46, ../sass/screen.scss */
+.hyf-emoticons .hyf-results {
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  -ms-border-radius: 2em;
+  -o-border-radius: 2em;
+  border-radius: 2em;
+  overflow: hidden;
+  background: #999999;
+}
+/* line 50, ../sass/screen.scss */
+.hyf-emoticons .hyf-results .hyf-emoticon {
+  -webkit-box-shadow: inset rgba(0, 0, 0, 0.2) 0px 2px 4px;
+  -moz-box-shadow: inset rgba(0, 0, 0, 0.2) 0px 2px 4px;
+  box-shadow: inset rgba(0, 0, 0, 0.2) 0px 2px 4px;
+}
+/* line 52, ../sass/screen.scss */
+.hyf-emoticons .hyf-results .hyf-emoticon.unhappy {
+  background: #f85741;
+}
+/* line 55, ../sass/screen.scss */
+.hyf-emoticons .hyf-results .hyf-emoticon.sleep {
+  background: #999999;
+}
+/* line 58, ../sass/screen.scss */
+.hyf-emoticons .hyf-results .hyf-emoticon.happy {
+  background: #09b892;
+}
+/* line 61, ../sass/screen.scss */
+.hyf-emoticons .hyf-results .hyf-emoticon i {
+  display: inline-block;
+}
+/* line 65, ../sass/screen.scss */
+.hyf-emoticons .hyf-results .percentage {
+  font-size: .9em;
+  display: block;
+}
+/* line 71, ../sass/screen.scss */
+.hyf-emoticons .hyf-poll {
+  text-align: center;
+}
+/* line 73, ../sass/screen.scss */
+.hyf-emoticons .hyf-poll .hyf-emoticon {
+  width: 32%;
+}
+/* line 76, ../sass/screen.scss */
+.hyf-emoticons .hyf-poll .hyf-emoticon a i {
+  display: inline-block;
+  padding: 10px 9px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px;
+}
+/* line 80, ../sass/screen.scss */
+.hyf-emoticons .hyf-poll .hyf-emoticon a i.icon-emo-unhappy {
+  background: #f85741;
+  -webkit-box-shadow: #f62c10 0px 2px 0px;
+  -moz-box-shadow: #f62c10 0px 2px 0px;
+  box-shadow: #f62c10 0px 2px 0px;
+  position: relative;
+  top: 0;
+  -webkit-transition-duration: 0.05s;
+  -moz-transition-duration: 0.05s;
+  -o-transition-duration: 0.05s;
+  transition-duration: 0.05s;
+}
+/* line 8, ../sass/_mixins.scss */
+.hyf-emoticons .hyf-poll .hyf-emoticon a i.icon-emo-unhappy:hover {
+  background: #f96855;
+}
+/* line 11, ../sass/_mixins.scss */
+.hyf-emoticons .hyf-poll .hyf-emoticon a i.icon-emo-unhappy:active {
+  background: #f84e37;
+  top: 2px;
+  -webkit-box-shadow: #f62c10 0px 0px 0px, inset rgba(0, 0, 0, 0.2) 0px 1px 2px, inset rgba(255, 255, 255, 0.2) 0px -1px 0px;
+  -moz-box-shadow: #f62c10 0px 0px 0px, inset rgba(0, 0, 0, 0.2) 0px 1px 2px, inset rgba(255, 255, 255, 0.2) 0px -1px 0px;
+  box-shadow: #f62c10 0px 0px 0px, inset rgba(0, 0, 0, 0.2) 0px 1px 2px, inset rgba(255, 255, 255, 0.2) 0px -1px 0px;
+}
+/* line 83, ../sass/screen.scss */
+.hyf-emoticons .hyf-poll .hyf-emoticon a i.icon-emo-sleep {
+  background: #999999;
+  -webkit-box-shadow: gray 0px 2px 0px;
+  -moz-box-shadow: gray 0px 2px 0px;
+  box-shadow: gray 0px 2px 0px;
+  position: relative;
+  top: 0;
+  -webkit-transition-duration: 0.05s;
+  -moz-transition-duration: 0.05s;
+  -o-transition-duration: 0.05s;
+  transition-duration: 0.05s;
+}
+/* line 8, ../sass/_mixins.scss */
+.hyf-emoticons .hyf-poll .hyf-emoticon a i.icon-emo-sleep:hover {
+  background: #a3a3a3;
+}
+/* line 11, ../sass/_mixins.scss */
+.hyf-emoticons .hyf-poll .hyf-emoticon a i.icon-emo-sleep:active {
+  background: #949494;
+  top: 2px;
+  -webkit-box-shadow: gray 0px 0px 0px, inset rgba(0, 0, 0, 0.2) 0px 1px 2px, inset rgba(255, 255, 255, 0.2) 0px -1px 0px;
+  -moz-box-shadow: gray 0px 0px 0px, inset rgba(0, 0, 0, 0.2) 0px 1px 2px, inset rgba(255, 255, 255, 0.2) 0px -1px 0px;
+  box-shadow: gray 0px 0px 0px, inset rgba(0, 0, 0, 0.2) 0px 1px 2px, inset rgba(255, 255, 255, 0.2) 0px -1px 0px;
+}
+/* line 86, ../sass/screen.scss */
+.hyf-emoticons .hyf-poll .hyf-emoticon a i.icon-emo-happy {
+  background: #09b892;
+  -webkit-box-shadow: #07876b 0px 2px 0px;
+  -moz-box-shadow: #07876b 0px 2px 0px;
+  box-shadow: #07876b 0px 2px 0px;
+  position: relative;
+  top: 0;
+  -webkit-transition-duration: 0.05s;
+  -moz-transition-duration: 0.05s;
+  -o-transition-duration: 0.05s;
+  transition-duration: 0.05s;
+}
+/* line 8, ../sass/_mixins.scss */
+.hyf-emoticons .hyf-poll .hyf-emoticon a i.icon-emo-happy:hover {
+  background: #0acba1;
+}
+/* line 11, ../sass/_mixins.scss */
+.hyf-emoticons .hyf-poll .hyf-emoticon a i.icon-emo-happy:active {
+  background: #09ae8a;
+  top: 2px;
+  -webkit-box-shadow: #07876b 0px 0px 0px, inset rgba(0, 0, 0, 0.2) 0px 1px 2px, inset rgba(255, 255, 255, 0.2) 0px -1px 0px;
+  -moz-box-shadow: #07876b 0px 0px 0px, inset rgba(0, 0, 0, 0.2) 0px 1px 2px, inset rgba(255, 255, 255, 0.2) 0px -1px 0px;
+  box-shadow: #07876b 0px 0px 0px, inset rgba(0, 0, 0, 0.2) 0px 1px 2px, inset rgba(255, 255, 255, 0.2) 0px -1px 0px;
+}
+
+/* line 95, ../sass/screen.scss */
+.hyf-preview {
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  border-radius: 0.5em;
+  border: 1px solid #cccccc;
+  display: inline-block;
+}
